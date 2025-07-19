@@ -19,10 +19,12 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
