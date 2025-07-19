@@ -100,7 +100,7 @@ span {
   border-bottom: 1px solid #ccc;
   height: 80px;
 }
-@media (min-width: 769px) , (max-width: 990px) {
+@media (min-width: 769px) and (max-width: 990px) {
   #header {
     height: 125px;
   }
@@ -116,7 +116,7 @@ span {
   width: 300px;
   max-width: 100%;
 }
-@media (min-width: 769px) , (max-width: 990px) {
+@media (min-width: 769px) and (max-width: 990px) {
   .navbar .logo {
     transform: translateX(50%);
   }
@@ -124,7 +124,7 @@ span {
 .navbar ul {
   display: flex;
 }
-@media (min-width: 769px) , (max-width: 990px) {
+@media (min-width: 769px) and (max-width: 990px) {
   .navbar ul {
     margin: 0 auto;
   }
@@ -322,7 +322,7 @@ span {
   display: grid;
   grid-template-columns: 2fr 1.4fr;
 }
-@media (min-width: 769px) , (max-width: 990px) {
+@media (min-width: 769px) and (max-width: 990px) {
   .contact-content {
     display: flex;
     flex-direction: column;
@@ -335,7 +335,7 @@ span {
     height: 100%;
   }
 }
-@media (min-width: 769px) , (max-width: 990px) {
+@media (min-width: 769px) and (max-width: 990px) {
   .contact-content .map iframe {
     width: 100%;
   }
