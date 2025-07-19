@@ -100,6 +100,11 @@ span {
   border-bottom: 1px solid #ccc;
   height: 80px;
 }
+@media (min-width: 769px) , (max-width: 990px) {
+  #header {
+    height: 125px;
+  }
+}
 .navbar .container {
   display: flex;
   justify-content: space-between;
@@ -111,8 +116,18 @@ span {
   width: 300px;
   max-width: 100%;
 }
+@media (min-width: 769px) , (max-width: 990px) {
+  .navbar .logo {
+    transform: translateX(50%);
+  }
+}
 .navbar ul {
   display: flex;
+}
+@media (min-width: 769px) , (max-width: 990px) {
+  .navbar ul {
+    margin: 0 auto;
+  }
 }
 .navbar ul li a {
   color: var(--dark-gray);
