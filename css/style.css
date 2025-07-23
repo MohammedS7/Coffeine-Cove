@@ -205,7 +205,11 @@ span {
 .home .image {
   max-width: 100%;
 }
-
+@media (max-width: 767px) {
+  .home .image {
+    width: 80%;
+  }
+}
 /* About */
 .about {
   background: #fff;
