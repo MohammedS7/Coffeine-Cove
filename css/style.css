@@ -207,7 +207,7 @@ span {
 }
 @media (max-width: 767px) {
   .home .image {
-    width: 200px;
+    width: 100px;
   }
 }
 /* About */
